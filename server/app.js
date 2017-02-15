@@ -1,5 +1,5 @@
 var server = require('ws').Server;
-var ws = new server({port:5053});
+var ws = new server({port:5054});
 
 ws.on('connection',function(s){
     var cli = ws.clients;
