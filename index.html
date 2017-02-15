@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天服务器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>匿名聊天室</h1>
+    </div>
+    <div id="log"></div>
+    <div class="senWrap">
+        <input type="text" id="message" placeholder="请输入聊天信息">
+        <button id="btn">发送</button>
+    </div>
+    <!--弹出层-->
+    <div class="nameWrap">
+        <div class="inputWrap">
+            <h2>输入您喜欢的名字：</h2>
+            <input type="text" id='userName' maxlength="8" placeholder="在此输入名字">
+            <button id="userBtn">确  定</button>
+        </div>
+    </div>
+    <p id="userText"></p>
+    <script src="sock.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "byzhkc3",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.11.0",
+    "ws": "^2.0.3"
+  }
+}
