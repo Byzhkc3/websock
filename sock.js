@@ -19,7 +19,7 @@ window.onload = function(){
 
    function websock(){
        // 连接sock
-       var sock = new WebSocket("ws://www.turing.vip:5054)";
+       var sock = new WebSocket("ws://www.turing.vip:5054");
        sock.onopen = function (event) {
            console.log('服务器连接成功！');
            var userName = document.querySelector("#userText").innerText;
